@@ -1,0 +1,164 @@
+{
+  "Wolf": {
+    "type":"Wolf" ,
+    "weight": 50.0,
+    "maxOnCell": 30,
+    "speed": 3,
+    "foodNeed": 8.0,
+    "emoji": "🐺",
+    "eatingProbabilities": {
+      "Rabbit": 60,
+      "Mouse": 80,
+      "Deer": 15,
+      "Goat": 60,
+      "Sheep": 70
+    }
+  },
+  "Fox": {
+    "type":"Fox" ,
+    "weight": 8.0,
+    "maxOnCell": 30,
+    "speed": 2,
+    "foodNeed": 2.0,
+    "emoji": "🦊",
+    "eatingProbabilities": {
+      "Rabbit": 70,
+      "Mouse": 90,
+      "Caterpillar": 40
+    }
+  },
+  "Bear": {
+    "type": "Bear",
+    "weight": 500.0,
+    "maxOnCell": 5,
+    "speed": 2,
+    "foodNeed": 80.0,
+    "emoji": "🐻",
+    "eatingProbabilities": {
+      "Deer": 80,
+      "Rabbit": 80,
+      "Mouse": 90,
+      "Goat": 70,
+      "Sheep": 70,
+      "Boar": 50,
+      "Buffalo": 20,
+      "Duck": 10
+    }
+  },
+  "Eagle": {
+    "type":"Eagle" ,
+    "weight": 6.0,
+    "maxOnCell": 20,
+    "speed": 3,
+    "foodNeed": 1.0,
+    "emoji": "🦅",
+    "eatingProbabilities": {
+      "Rabbit": 90,
+      "Mouse": 90,
+      "Duck": 80
+    }
+  },
+  "Boa": {
+    "type":"Boa" ,
+    "weight": 15.0,
+    "maxOnCell": 30,
+    "speed": 1,
+    "foodNeed": 3.0,
+    "emoji": "🐍",
+    "eatingProbabilities": {
+      "Rabbit": 20,
+      "Mouse": 40,
+      "Duck": 10
+    }
+  },
+  "Rabbit": {
+    "type": "Rabbit" ,
+    "weight": 2.0,
+    "maxOnCell": 150,
+    "speed": 2,
+    "foodNeed": 0.45,
+    "emoji": "🐇"
+  },
+  "Mouse": {
+    "type":"Mouse" ,
+    "weight": 0.05,
+    "maxOnCell": 500,
+    "speed": 1,
+    "foodNeed": 0.01,
+    "emoji": "🐁",
+    "eatingProbabilities": {
+      "Caterpillar": 90
+    }
+  },
+  "Goat": {
+    "type":"Goat" ,
+    "weight": 60.0,
+    "maxOnCell": 140,
+    "speed": 3,
+    "foodNeed": 10.0,
+    "emoji": "🐐"
+  },
+  "Sheep": {
+    "type":"Sheep" ,
+    "weight": 70.0,
+    "maxOnCell": 140,
+    "speed": 3,
+    "foodNeed": 15.0,
+    "emoji": "🐑"
+  },
+  "Boar": {
+    "type":"Boar" ,
+    "weight": 400.0,
+    "maxOnCell": 50,
+    "speed": 2,
+    "foodNeed": 50.0,
+    "emoji": "🐗",
+    "eatingProbabilities": {
+      "Mouse": 50,
+      "Caterpillar": 90
+    }
+  },
+  "Buffalo": {
+    "type":"Buffalo" ,
+    "weight": 700.0,
+    "maxOnCell": 10,
+    "speed": 3,
+    "foodNeed": 100.0,
+    "emoji": "🐃"
+  },
+  "Duck": {
+    "type":"Duck" ,
+    "weight": 1.0,
+    "maxOnCell": 200,
+    "speed": 4,
+    "foodNeed": 0.15,
+    "emoji": "🦆",
+    "eatingProbabilities": {
+      "Caterpillar": 90
+    }
+  },
+  "Caterpillar": {
+    "type":"Caterpillar" ,
+    "weight": 0.01,
+    "maxOnCell": 1000,
+    "speed": 0,
+    "foodNeed": 0.0,
+    "emoji": "🐛"
+  },
+  "Deer": {
+    "type": "Deer" ,
+    "weight": 300.0,
+    "maxOnCell": 20,
+    "speed": 4,
+    "foodNeed": 50.0,
+    "emoji": "🦌"
+  },
+  "Horse": {
+    "type": "Horse" ,
+    "weight": 400.0,
+    "maxOnCell": 20,
+    "speed": 4,
+    "foodNeed": 60.0,
+    "emoji": "🐎"
+  }
+}
